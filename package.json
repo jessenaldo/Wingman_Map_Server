@@ -1,0 +1,17 @@
+{
+  "name": "mapserver",
+  "version": "1.0.0",
+  "description": "node server to listen to wingman requests, narrow down who to give push notifications to, and send them to Ionic",
+  "main": "server.js",
+  "dependencies": {
+    "async": "^1.5.2",
+    "body-parser": "^1.15.0",
+    "btoa": "^1.1.2",
+    "express": "^4.13.4",
+    "firebase": "^2.4.1",
+    "geofire": "^3.2.4",
+    "lodash-node": "^3.10.2",
+    "request": "^2.69.0",
+    "rsvp": "^3.2.1"
+  }
+}
