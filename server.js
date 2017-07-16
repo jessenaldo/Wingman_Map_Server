@@ -1,5 +1,5 @@
 var express = require('express')
-var Firebase = require("Firebase");
+var Firebase = require("firebase");
 var $http = require('http');
 var request = require('request');
 var btoa = require('btoa');
